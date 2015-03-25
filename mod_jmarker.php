@@ -12,6 +12,12 @@
 // no direct access
 defined( '_JEXEC' ) or die( 'Restricted access' );
 require_once __DIR__ . '/helper.php';
+$doc = JFactory::getDocument();
+//$doc->addStyleSheet(JUri::root().'modules/mod_jmarker/media/css/style.css');
+//$doc->addScript(JUri::root().'modules/mod_jmarker/media/js/jquery-1.9.1.min.js');
+//$doc->addScript(JUri::root().'modules/mod_jmarker/media/js/jquery-ui.js');
+?>
+<?php
 include_once JPATH_LIBRARIES.'/fof/include.php';
 $app = JFactory::getApplication();
 

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="3.0"
+	method="upgrade"
+	client="site">	
+	<name>MOD_JMARKER</name>
+	<creationDate>25 March 2015</creationDate>
+	<author>Kumar Ramalingam</author>
+	<authorEmail>kumar@w3ert.in</authorEmail>
+	<copyright>Copyright (c) w3cert.in. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<version>1.1.0</version>
+	<description>JMarker Module</description>
+	
+<files>
+	<filename module="mod_jmarker">mod_jmarker.php</filename>
+	<filename>index.html</filename>    	
+	<filename>mod_jmarker.xml</filename>
+	<filename>helper.php</filename>	 
+	<folder>tmpl</folder>
+	<folder>media</folder>
+</files>
+
+<languages folder="language">
+	<language tag="en-GB">en-GB.mod_jmarker.ini</language>
+	<language tag="en-GB">en-GB.mod_jmarker.sys.ini</language>
+</languages>
+<config>
+	<fields name="params" >
+	    <fieldset name="request" addfieldpath="" label="MOD_JMARKER">						
+			<field name="marker_one" type="text" label="MOD_JMARKER_MARKER_NAME"></field>
+			<field name="marker_one_lat" type="text" lable="MOD_JMARKER_LATITUDE_VALUE"></field>
+			<field name="marker_one_lng" type="text" lable="MOD_JMARKER_LONGTITUDE_VALUE"></field>	
+			<field name="marker_two" type="text" label="MOD_JMARKER_MARKER_NAME"></field>
+			<field name="marker_two_lat" type="text" lable="MOD_JMARKER_LATITUDE_VALUE"></field>
+			<field name="marker_two_lng" type="text" lable="MOD_JMARKER_LONGTITUDE_VALUE"></field>	
+			<field name="marker_three" type="text" label="MOD_JMARKER_MARKER_NAME"></field>
+			<field name="marker_three_lat" type="text" lable="MOD_JMARKER_LATITUDE_VALUE"></field>
+			<field name="marker_three_lng" type="text" lable="MOD_JMARKER_LONGTITUDE_VALUE"></field>		
+			<field name="marker_four" type="text" label="MOD_JMARKER_MARKER_NAME"></field>
+			<field name="marker_four_lat" type="text" lable="MOD_JMARKER_LATITUDE_VALUE"></field>
+			<field name="marker_four_lng" type="text" lable="MOD_JMARKER_LONGTITUDE_VALUE"></field>										
+	 	</fieldset>
+	 </fields>
+</config>
+</extension>

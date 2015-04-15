@@ -29,19 +29,7 @@
 <config>
 	<fields name="params" >
 	    <fieldset name="request" addfieldpath="" label="MOD_JMARKER">						
-			<field name="marker_one" type="text" label="MOD_JMARKER_MARKER_NAME"></field>
-			<field name="marker_one_lat" type="text" lable="MOD_JMARKER_LATITUDE_VALUE"></field>
-			<field name="marker_one_lng" type="text" lable="MOD_JMARKER_LONGTITUDE_VALUE"></field>	
-			<field name="marker_two" type="text" label="MOD_JMARKER_MARKER_NAME"></field>
-			<field name="marker_two_lat" type="text" lable="MOD_JMARKER_LATITUDE_VALUE"></field>
-			<field name="marker_two_lng" type="text" lable="MOD_JMARKER_LONGTITUDE_VALUE"></field>	
-			<field name="marker_three" type="text" label="MOD_JMARKER_MARKER_NAME"></field>
-			<field name="marker_three_lat" type="text" lable="MOD_JMARKER_LATITUDE_VALUE"></field>
-			<field name="marker_three_lng" type="text" lable="MOD_JMARKER_LONGTITUDE_VALUE"></field>		
-			<field name="marker_four" type="text" label="MOD_JMARKER_MARKER_NAME"></field>
-			<field name="marker_four_lat" type="text" lable="MOD_JMARKER_LATITUDE_VALUE"></field>
-			<field name="marker_four_lng" type="text" lable="MOD_JMARKER_LONGTITUDE_VALUE"></field>										
-	 	</fieldset>
+		</fieldset>
 	 </fields>
 </config>
 </extension>
